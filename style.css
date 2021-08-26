@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #ebf2ff;
+}
+
+.navbar {
+  display: flex;
+  background-color: #f9fafc;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow:  0 25px 50px -12px rgb(0 0 0 / 25%);
+  padding: 0px 60px;
+}
+
+.navbar__logo {
+  width: 100px;
+}
+
+.navbar__button {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+     #dd2476 51%,
+     #ff512f 100%
+    );
+  border: none;
+  color: white;
+  margin-left: 50px;
+  padding: 12px;
+  border-radius: 10%;
+  font-weight: 600;
+}
+
+.navbar__button:hover {
+  padding: 16px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.hero__container {
+  padding: 10px;
+}
+
+.hero__image__elements {
+  position: relative;
+}
+
+.hero__image {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow:  0 25px 50px -12px rgb(0 0 0 / 25%);
+  z-index: 1;
+}
+
+.hero__bgpattern {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.hero__shape {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.hero__description__elements {
+  display: block;
+
+}
+
+.hero__description {
+  padding: 10px;
+  color: #1d3557;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.explore__menu__title {
+  text-align: center;
+  color: #1d3557;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.explore__menu__card {
+  padding: 10px;
+  
+}
+
+.menu__card__image {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  padding-bottom: 0;
+}
+
+.menu__card__description {
+  margin-top: -5px;
+  padding-top: 0;
+  background-color: white;
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.view__button {
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+    );
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.view__button:hover {
+  padding: 12px;
+  background-color: #f9fafc;
+}
+
+.restaurant__container {
+  margin: 20px;
+}
+
+.restaurant__container__description {
+  color: #1d3557;
+  font-size: 40px;
+}
+
+.restaurant__container__images {
+  width: auto;
+}
+
+.restaurant__container__images__row1 {
+  gap: 50px;
+}
+
+.restaurant__images1 {
+  border-radius: 10px;
+  box-shadow:  0 25px 50px -12px rgb(0 0 0 / 25%);
+  width: 45%;
+}
+
+.restaurant__images2 {
+  border-radius: 10px;
+  box-shadow:  0 25px 50px -12px rgb(0 0 0 / 25%);
+  width: 54%;
+}
+
+
+.restaurant__container__images__row2 {
+  width:100%;  
+  gap: 10px;
+}
+
+.restaurant__images3 {
+  border-radius: 10px;
+  box-shadow:  0 25px 50px -12px rgb(0 0 0 / 25%);
+  width: 54%;
+  margin-bottom: 40px;
+}
+
+.restaurant__images4 {
+  border-radius: 10px;
+  box-shadow:  0 25px 50px -12px rgb(0 0 0 / 25%);
+  width: 45%;
+  margin-bottom: 60px;
+}
+
+.searchbar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h2 {
+  color: #1d3557;
+  font-size: 25px;
+  font-weight: 80%;
+}
+
+.searchbar__data {
+  margin: 8px 0px;
+  padding-left: 12px;
+  background-color: #FFE3E3;
+  width: 250px;
+  height: 35px;
+  border: #e20e27;
+  border-width: 100px;
+  border-radius: 10px;
+}
+
+.searchbar__button {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+    );
+  border: none;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.description {
+  display: inline-block;
+  position: relative;
+  text-align:center;
+  padding: 20px;
+}
+
+.description__image {
+  width: 100%;
+  border-radius: 20px;
+  filter: blur(2px);
+}
+
+.description__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+  
+.footer__container {
+  
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+    );
+  border: none;
+  color: white;
+  
+  padding: 15px;
+  border-radius: 20px 20px 0px 0px;
+  font-weight: 400;
+  font-size: 18px;
+}
+  
+.footer__image {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  filter:brightness(20);
+}
+
+.footer__content {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+  .hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding:  30px 100px;
+    gap: 5px;
+  }
+
+  .hero__description {
+    padding: 10px;
+    color: #1d3557;
+    font-weight: 900;
+    font-size: 35px;
+  }
+
+  .hero__image__elements {
+    width: 100%;
+  }
+
+  .explore__menu {
+    position: relative;
+  }
+
+  .explore__menu__gradient__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+       #dd2476 51%,
+       #ff512f 100%
+      );
+    z-index: -3;
+    transform: skewY(-5deg);
+  }
+
+  .explore__menu__screen {
+    display: flex;
+  }
+
+  .explore__menu__card {
+    flex-direction: column;
+  }
+
+  .explore__menu__card__side {
+    margin: 40px 0px 0px;
+    padding: 10px 10px;
+  }
+
+  .explore__menu__card__center {
+    padding: 20px;
+  }
+
+  .view__button:hover {
+    border: 1px;
+    border-color: #f9fafc;
+    padding: 12px;
+    background-color: white;
+    
+  }
+
+  .restaurant__container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .restaurant__container__description {
+    width: 50%;
+    padding-left: 30px;
+  }
+
+  .restaurant__container__images {
+    width: 50%;
+  }
+
+  .description__image {
+    width: 80%;
+    margin: 30px;
+  }
+
+  .footer__container {
+    display: flex;
+  }
+  .footer__image {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .footer__content {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+  }
+} 
+
